@@ -4,7 +4,6 @@ about: Report a bug during integration
 title: "[BUG] <short summary>"
 labels: ["bug", "status/new"]
 assignees: []
-
 ---
 
 ### 🔍 Summary
@@ -21,8 +20,13 @@ assignees: []
 - Commit: `...`
 
 ### 🔁 Steps to Reproduce
-1. ...
-2. ...
+```
+[Explain step-by-step how to reproduce the issue. For example:
+1. Flash image XYZ to device
+2. Boot with debug enabled
+3. Run `integration-test.sh`
+4. Observe segmentation fault after 30s]
+```
 
 ### 📸 Logs/Screenshots
 [Attach logs, if any]
@@ -36,3 +40,4 @@ assignees: []
 - [ ] team1
 - [ ] team2
 - [ ] team3
+

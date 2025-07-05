@@ -4,7 +4,6 @@ about: Functional tests behaving inconsistently across teams/regions
 title: "[TEST] <short summary>"
 labels: ["test", "status/new"]
 assignees: []
-
 ---
 
 ### ⚠️ Description
@@ -17,6 +16,15 @@ assignees: []
 | Hardware       |                  |                  |
 | Branch         |                  |                  |
 | Toolchain      |                  |                  |
+
+### 🔁 Reproduction Conditions
+```
+[Describe the conditions under which the test discrepancy appears:
+- OS version
+- Target environment
+- Branch/commit ID
+- Test suite run options]
+```
 
 ### 🧪 Logs or Screenshots
 [Attach test logs or screenshots]
